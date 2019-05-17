@@ -1,0 +1,96 @@
+body{
+    font-family: sans-serif;
+}
+h1{
+    margin: 1.5em 0;
+}
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 1em;
+}
+input[type="text"]{
+    width: 300px;
+    height: 40px;
+    padding: 0 1%;
+}
+button, input[type="submit"]  {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out,
+    transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus{
+    background: #0053ba;
+}
+
+button:focus, input[type="submit"]:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active, input[type="submit"]:active {
+    transform: scale(0.99);
+}
+
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15%;
+    width: 500px;
+}
+.form-group .listWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.btnWrapper{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+form{
+    width: 600px;
+    height: 400px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin-right: 5%;
+}
+.formWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
